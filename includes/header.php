@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metaetiquetas para evitar que el navegador guarde datos viejos de pedidos -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <title>CAFETIGO - <?= $tituloPagina ?? 'Panel principal' ?></title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="contenedor">
